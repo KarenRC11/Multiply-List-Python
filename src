@@ -1,0 +1,11 @@
+#Multiplicar todos los numeros de una lista:
+
+list = (1,2,3,4)
+
+def multiplicaLista(list):
+    multiplicacion = 1
+    for i in list:
+        multiplicacion *= i
+    return multiplicacion
+
+print(multiplicaLista(list))
